@@ -1,0 +1,3 @@
+[submodule "VB.Net"]
+	path = VB.Net
+	url = https://github.com/rosstimo/VB.Net.git
