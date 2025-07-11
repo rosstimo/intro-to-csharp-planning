@@ -54,6 +54,17 @@
    - Senior citizens get a 3% discount.
    - A person can receive both discounts.
    - Do not take the discount until the calculate button is clicked.
+5. Each calculation or conversion (e.g., daily charge, mileage charge, discounts, kilometers to miles) should be implemented as a small, specific function in your code. This improves readability, maintainability, and testability.
+
+#### Example: Kilometers to Miles Conversion
+
+```csharp
+// Converts kilometers to miles
+private double KilometersToMiles(double kilometers)
+{
+    return kilometers * 0.62;
+}
+```
 
 ### Display the Output
 
