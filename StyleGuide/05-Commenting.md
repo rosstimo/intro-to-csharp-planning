@@ -68,4 +68,10 @@ In the good example, the first comment explains *why* we check `sum > 20` – pr
 
 ---
 
+## Commenting in Beginner Assignments
+
+For small, beginner-level assignments (like early calculator projects), it's common for all logic to be in the `Main` method and for code to be very linear. In these cases, well-named variables and clear structure are often enough, and only a few comments are needed to explain the overall flow or any non-obvious logic. Don't feel pressured to comment every line. Instead focus on clarity and intent. As you learn more advanced features (like methods, classes, or more complex logic), your commenting style will naturally evolve to include more context and documentation where needed.
+
+---
+
 Following these conventions will make your C# code clean, professional, and easy for others (and you!) to understand. At first it’s a lot to remember, but over time it becomes second nature. Consistent style is about communication – your code should clearly convey its purpose without requiring guesswork. Stick to these guidelines, and you'll be writing C# code that looks like the work of an experienced developer, even if you’re just starting out. Happy coding!

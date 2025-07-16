@@ -60,7 +60,7 @@ namespace BetterCalculator
                 while (!validInput && keepRunning)
                 {
                     Console.Write("Choose a Number: ");
-                    userInput = Console.ReadLine();
+                    userInput = Console.ReadLine() ?? "";
                     // Allow user to quit
                     if (userInput.Trim().ToUpper() == "Q")
                     {
@@ -88,7 +88,7 @@ namespace BetterCalculator
                     Console.WriteLine("2. Subtract");
                     Console.WriteLine("3. Multiply");
                     Console.WriteLine("4. Divide");
-                    userInput = Console.ReadLine();
+                    userInput = Console.ReadLine() ?? "";
                     // Allow user to quit
                     if (userInput.Trim().ToUpper() == "Q")
                     {
