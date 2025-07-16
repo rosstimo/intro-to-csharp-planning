@@ -14,7 +14,9 @@ namespace BetterCalculator
     {
         static void Main(string[] args)
         {
+            // Main control variable for the calculator loop
             bool keepRunning = true;
+            // Variables for user input and calculation
             int firstNumber = 0;
             int secondNumber = 0;
             string userInput = "";
@@ -27,17 +29,21 @@ namespace BetterCalculator
             Console.WriteLine("Welcome to the Better Calculator...\n");
             do
             {
+                // Reset control variables for each calculation
                 keepRunning = true;
                 validInput = false;
+                // Prompt for the first number
                 while (!validInput && keepRunning)
                 {
                     Console.Write("Choose a Number: ");
                     userInput = Console.ReadLine() ?? "";
+                    // Allow user to quit
                     if (userInput.Trim().ToUpper() == "Q")
                     {
                         Console.WriteLine($"You entered \"{userInput}\"");
                         keepRunning = false;
                     }
+                    // Validate input as integer
                     else if (int.TryParse(userInput, out firstNumber))
                     {
                         Console.WriteLine($"You entered \"{firstNumber}\"");
@@ -49,16 +55,19 @@ namespace BetterCalculator
                     }
                 }
 
+                // Prompt for the second number
                 validInput = false;
                 while (!validInput && keepRunning)
                 {
                     Console.Write("Choose a Number: ");
                     userInput = Console.ReadLine();
+                    // Allow user to quit
                     if (userInput.Trim().ToUpper() == "Q")
                     {
                         Console.WriteLine($"You entered \"{userInput}\"");
                         keepRunning = false;
                     }
+                    // Validate input as integer
                     else if (int.TryParse(userInput, out secondNumber))
                     {
                         Console.WriteLine($"You entered \"{secondNumber}\"");
@@ -70,6 +79,7 @@ namespace BetterCalculator
                     }
                 }
 
+                // Prompt for the operation
                 validInput = false;
                 while (!validInput && keepRunning)
                 {
@@ -79,11 +89,13 @@ namespace BetterCalculator
                     Console.WriteLine("3. Multiply");
                     Console.WriteLine("4. Divide");
                     userInput = Console.ReadLine();
+                    // Allow user to quit
                     if (userInput.Trim().ToUpper() == "Q")
                     {
                         Console.WriteLine($"You entered \"{userInput}\"");
                         keepRunning = false;
                     }
+                    // Validate input as integer and within range
                     else if (int.TryParse(userInput, out operation) && operation >= 1 && operation <= 4)
                     {
                         Console.WriteLine($"You entered \"{operation}\"");
@@ -95,6 +107,7 @@ namespace BetterCalculator
                     }
                 }
 
+                // Perform the selected operation
                 result = 0;
                 operationSymbol = "";
                 valid = true;
@@ -113,6 +126,7 @@ namespace BetterCalculator
                         operationSymbol = "*";
                         break;
                     case 4:
+                        // Handle division by zero
                         if (secondNumber == 0)
                         {
                             Console.WriteLine("Cannot divide by zero.");
@@ -128,6 +142,7 @@ namespace BetterCalculator
                         valid = false;
                         break;
                 }
+                // Display the result if valid
                 if (valid && operationSymbol != "")
                 {
                     Console.WriteLine($"{firstNumber} {operationSymbol} {secondNumber} = {result}");
