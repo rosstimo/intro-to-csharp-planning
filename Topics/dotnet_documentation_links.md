@@ -1,0 +1,66 @@
+# .NET and C# Documentation References
+
+Below are key official documentation links for C# and .NET, organized by beginner, intermediate, and advanced level. Each entry includes a clear description of what you'll find on the page and who it's for.
+
+---
+
+## Beginner
+
+**[C# Documentation Home](https://learn.microsoft.com/en-us/dotnet/csharp/)**  
+*Main landing page for all official C# documentation. Provides quick access to tutorials, guides, references, and news. Great starting point for exploring everything C#.*
+
+**[Tour of C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)**  
+*Interactive tutorials, videos, and lessons for C# beginners. Covers fundamental concepts, simple programs, and links to beginner-friendly resources. Best starting point for absolute beginners.*
+
+**[C# for Beginners Video Series](https://learn.microsoft.com/en-us/shows/csharp-for-beginners/?languages=csharp)**  
+*Free video series designed for absolute beginners. Covers the basics of C# programming with clear explanations and practical examples. Great for visual learners and those new to coding.*
+
+**[C# Tutorials](https://learn.microsoft.com/en-us/dotnet/csharp/tutorials/)**  
+*Step-by-step guides for writing simple C# programs. Includes practical examples like displaying command-line arguments and basic class usage. Easy to follow and copy.*
+
+**[C# Programming Guide](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/)**  
+*Explains core C# programming concepts in plain language. Covers syntax, types, control flow, and basic object-oriented principles. Ideal for those new to C#.*
+
+**[C# Language Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)**  
+*Informal reference for C# syntax and idioms. Useful for beginners and experienced developers to look up keywords, operators, and basic language features.*
+
+**[C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)**  
+*Outlines best practices for writing readable, maintainable C# code. Includes naming conventions, formatting, and style guidelines. Essential for beginners to learn good habits.*
+
+**[C# Keywords Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)**  
+*Comprehensive list and explanations of all C# keywords. Useful for understanding reserved words, their meanings, and how to use them in your code. Great for beginners and as a quick lookup.*
+
+---
+
+## Intermediate
+
+**[.NET API Browser](https://learn.microsoft.com/en-us/dotnet/api/)**  
+*Searchable documentation for all .NET APIs. Useful for finding details about classes, methods, and namespaces in the .NET framework. Intermediate users will benefit most when building real projects.*
+
+**[C# Compiler Messages](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/)**  
+*Explains common compiler errors and warnings in C#. Helps users understand why errors occur and how to fix them. Useful for troubleshooting and learning from mistakes.*
+
+---
+
+## Advanced
+
+**[C# Language Specification Table of Contents](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/readme)**  
+*The official, detailed specification of the C# language. Covers every aspect of C# syntax, semantics, and advanced features. Intended for advanced users, language designers, and those who want to understand C# in depth.*
+
+---
+
+### Summary Table
+
+| Level        | URL & Title                                                                 | Description                                                                                   |
+|--------------|-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Beginner     | [C# Documentation Home](https://learn.microsoft.com/en-us/dotnet/csharp/)    | Main landing page for all official C# documentation                                           |
+|              | [Tour of C#](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/) | Interactive tutorials, videos, and lessons for C# beginners                                   |
+|              | [C# for Beginners Video Series](https://learn.microsoft.com/en-us/shows/csharp-for-beginners/?languages=csharp) | Free video series for absolute beginners                                                      |
+|              | [C# Tutorials](https://learn.microsoft.com/en-us/dotnet/csharp/tutorials/)   | Step-by-step guides for simple C# programs                                                    |
+|              | [C# Programming Guide](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/) | Core concepts explained in plain language                                                     |
+|              | [C# Language Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/) | Syntax and idioms reference for all levels                                                    |
+|              | [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) | Best practices for readable, maintainable code                                                |
+|              | [C# Keywords Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/) | List and explanations of all C# keywords                                                      |
+| Intermediate | [.NET API Browser](https://learn.microsoft.com/en-us/dotnet/api/)            | Searchable documentation for all .NET APIs                                                    |
+|              | [C# Compiler Messages](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/) | Explanations for compiler errors and warnings                                                 |
+| Advanced     | [C# Language Specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/readme) | Official, detailed specification for advanced users                                           |
