@@ -30,6 +30,18 @@ Below are key official documentation links for C# and .NET, organized by beginne
 **[C# Keywords Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/)**  
 *Comprehensive list and explanations of all C# keywords. Useful for understanding reserved words, their meanings, and how to use them in your code. Great for beginners and as a quick lookup.*
 
+**[System.Console Class Reference](https://learn.microsoft.com/en-us/dotnet/api/system.console?view=net-8.0)**  
+*Official documentation for the System.Console class. Explains how to use Console for input, output, and formatting in C# programs. Essential for beginners working with console applications.*
+
+**[System.String Class Reference](https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-8.0)**  
+*Official documentation for the System.String class. Explains how to use strings, string methods, formatting, and manipulation in C# programs. Essential for beginners working with text and string data.*
+
+**[System.Math Class Reference](https://learn.microsoft.com/en-us/dotnet/api/system.math?view=net-8.0)**  
+*Official documentation for the System.Math class. Explains how to use mathematical functions like rounding, powers, trigonometry, and more in C# programs. Essential for beginners working with numbers and calculations.*
+
+**[System Namespace Reference](https://learn.microsoft.com/en-us/dotnet/api/system?view=net-8.0)**  
+*Official documentation for the System namespace. Describes the core classes and base types available in .NET, including fundamental types, collections, and utilities. Essential for understanding the building blocks of C# and .NET.*
+
 ---
 
 ## Intermediate
@@ -61,6 +73,10 @@ Below are key official documentation links for C# and .NET, organized by beginne
 |              | [C# Language Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/) | Syntax and idioms reference for all levels                                                    |
 |              | [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions) | Best practices for readable, maintainable code                                                |
 |              | [C# Keywords Reference](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/) | List and explanations of all C# keywords                                                      |
+|              | [System.Console Class Reference](https://learn.microsoft.com/en-us/dotnet/api/system.console?view=net-8.0) | Official documentation for System.Console class                                               |
+|              | [System.String Class Reference](https://learn.microsoft.com/en-us/dotnet/api/system.string?view=net-8.0) | Official documentation for System.String class                                                |
+|              | [System.Math Class Reference](https://learn.microsoft.com/en-us/dotnet/api/system.math?view=net-8.0) | Official documentation for System.Math class                                                  |
+|              | [System Namespace Reference](https://learn.microsoft.com/en-us/dotnet/api/system?view=net-8.0) | Official documentation for System namespace                                                   |
 | Intermediate | [.NET API Browser](https://learn.microsoft.com/en-us/dotnet/api/)            | Searchable documentation for all .NET APIs                                                    |
 |              | [C# Compiler Messages](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/) | Explanations for compiler errors and warnings                                                 |
 | Advanced     | [C# Language Specification](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/readme) | Official, detailed specification for advanced users                                           |
