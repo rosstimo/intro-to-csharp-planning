@@ -142,6 +142,65 @@ MyApp/
 
 ---
 
+## C# Project Structure
+
+Project structure is about organizing your files and folders so your codebase is easy to navigate and maintain.
+
+---
+
+* **One Public Type per File:**
+  ```csharp
+  // File: Customer.cs
+  public class Customer {}
+  // Good: one public type per file
+  ```
+
+---
+
+* **Folders Mirror Namespaces:**
+  ```csharp
+  // Folder: Models/
+  // File: Product.cs
+  namespace MyApp.Models;
+  public class Product {}
+  // Good: folder and namespace match
+  ```
+
+---
+
+* **PascalCase for Files and Folders:**
+  ```csharp
+  // Folder: Services/
+  // File: OrderManager.cs
+  // Good: PascalCase for names
+  ```
+
+---
+
+* **No Spaces or Underscores in Names:**
+  ```csharp
+  // Good: use PascalCase, no spaces or underscores
+  // File: OrderHistory.cs
+  ```
+
+---
+
+* **Plural Folder Names for Collections:**
+  ```csharp
+  // Folder: Models/
+  // Good: plural for collections
+  ```
+
+---
+
+* **Avoid Dumping Files at Root:**
+  ```csharp
+  // Good: organize files into folders by feature
+  // (no example needed)
+  ```
+
+---
+
 **Summary:**
 
 * One public type per file, file name matches the type.

@@ -146,6 +146,56 @@ obj/
 
 ---
 
+# Git Best Practices
+
+Good git habits help keep your codebase clean and collaborative.
+
+---
+
+* **Commit Often with Clear Messages:**
+  ```
+  git commit -m "Add Student class and tests"
+  // Good: clear, descriptive commit message
+  ```
+
+---
+
+* **Don’t Commit Commented-Out Code or Temporary Files:**
+  ```
+  // Good: remove commented-out code before committing
+  // (no example needed)
+  ```
+
+---
+
+* **Use Branches for Features and Fixes:**
+  ```
+  git checkout -b feature/add-login
+  // Good: use branches for new features
+  ```
+
+---
+
+* **Pull and Push Regularly:**
+  ```
+  git pull
+  git push
+  // Good: keep your local and remote repos in sync
+  ```
+
+---
+
+* **Write Useful .gitignore Files:**
+  ```
+  # .gitignore
+  bin/
+  obj/
+  *.user
+  // Good: ignore build artifacts and user files
+  ```
+
+---
+
 **Summary:**
 
 * Commit early, often, and with clear messages
