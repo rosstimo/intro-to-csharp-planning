@@ -1,16 +1,24 @@
-## 3. Primitive Data Types
+# Primitive Data Types in C#
 
-- **Core Types:**
-  - `int` – whole numbers (e.g. 0, -5, 42)
-  - `double` – numbers with decimals (e.g. 3.14, -0.5, 1.0)
-  - `float` – less-precise decimal (rare in intro class, but know it exists)
-  - `char` – a single character (e.g. 'A', '7', '#')
-  - `string` – text (e.g. "Hello, World!", "42")
-  - `bool` – `true` or `false` only
+## Introduction
 
-- **Literal Syntax:**
-  - `123`, `-5`, `3.14`, `'C'`, `"dog"`, `true`
-  - Type suffixes: `1.5f` for float, `123L` for long (not common for beginners)
+Primitive data types are the basic building blocks of all programs. They let you store numbers, text, and true/false values. Understanding these types helps you choose the right kind of variable for your data and avoid common mistakes.
+
+---
+
+**Core Types:**
+- `int` – whole numbers (e.g. 0, -5, 42)
+- `double` – numbers with decimals (e.g. 3.14, -0.5, 1.0)
+- `float` – less-precise decimal (rare in intro class, but know it exists)
+- `char` – a single character (e.g. 'A', '7', '#')
+- `string` – text (e.g. "Hello, World!", "42")
+- `bool` – `true` or `false` only
+
+---
+
+**Literal Syntax:**
+- `123`, `-5`, `3.14`, `'C'`, `"dog"`, `true`
+- Type suffixes: `1.5f` for float, `123L` for long (not common for beginners)
 
 ---
 
@@ -27,7 +35,7 @@
 | `long`    | System.Int64      | 8            | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 | For very large whole numbers (rare in intro)     |
 | `ulong`   | System.UInt64     | 8            | 0 to 18,446,744,073,709,551,615                  | Rarely used; only for huge positive numbers      |
 | `char`    | System.Char       | 2            | Unicode characters (U+0000 to U+FFFF)            | For single characters, not strings               |
-| `float`   | System.Single     | 4            | ~±1.5×10⁻⁴⁵ to ±3.4×10³⁸ (7 digits precision)    | For decimals when memory is tight; use `double` usually |
+| `float`   | System.Single     | 4            | ~±1.5×10⁻⁵ to ±3.4×10³⁸ (7 digits precision)    | For decimals when memory is tight; use `double` usually |
 | `double`  | System.Double     | 8            | ~±5.0×10⁻³²⁴ to ±1.7×10³⁰⁸ (15-16 digits precision) | Default for decimals, math, science, averages    |
 | `decimal` | System.Decimal    | 16           | ±1.0×10⁻²⁸ to ±7.9×10²⁸ (28-29 digits precision) | For money/financial values; slower than `double` |
 | `bool`    | System.Boolean    | 1            | `true` or `false`                                | For yes/no, on/off, true/false logic             |
@@ -107,13 +115,18 @@
 
 ---
 
-## References
+**Practical:**
+- Practice declaring variables of different primitive types.
+- Try assigning values and printing them to the console.
+- Experiment with type conversions and see what works and what causes errors.
+- Use the table above to pick the right type for your data.
 
-- [C# Language Specification (Microsoft Docs)](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/)
-- [Built-in Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types#built-in-types)
-- [Integral Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types#integral-types)
-- [Floating-point Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types#floating-point-types)
-- [Boolean Type](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types#the-boolean-type)
-- [Character Type](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types#the-character-type)
-- [String Type](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types#the-string-type)
+---
+
+## References
+- [C# Programming Guide: Types](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/types/)
+- [C# Language Specification: Simple Types](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/types#835-simple-types)
+- [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
+- [StyleGuide/01-CodeFormatting.md](../StyleGuide/01-CodeFormatting.md)
+- [Topics/dotnet_documentation_links.md](dotnet_documentation_links.md)
 
