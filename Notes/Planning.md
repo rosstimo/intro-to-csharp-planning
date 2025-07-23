@@ -9,4 +9,4 @@
 - create/convert assignment instructions to markdown
 - develope a clear assigment instructions template or guide
 - convert grading rubric to markdown have generic sections for console/GUI and include specific items for each assignment
-- create a simple but comprehensive RCET style guide for C# 
+- create a simple but comprehensive RCET style guide for C#
