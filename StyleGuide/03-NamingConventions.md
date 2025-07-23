@@ -6,7 +6,7 @@ Using consistent naming conventions in your code makes it intuitive and self-doc
 * **camelCase for Locals and Parameters:** Use camelCase for **variables**, **fields**, and **parameters** that are not public. In camelCase, the first letter is lowercase and following words are capitalized (e.g. `firstName`, `totalAmount`). Method parameters and local variables are typically camelCase. This rule helps distinguish local variables from Types, which start with capital letters.
 * **Private Fields:** For private member fields inside classes, use camelCase **with a leading underscore** `_` by convention. Example: `_currentIndex` or `_logger`. This clearly differentiates fields from local variables in code. (Some teams omit the underscore, but the .NET Runtime style uses it, so we’ll use it here.)
 * **Static Fields:** A common convention (used in the .NET runtime) is to prefix private **static** fields with `s_` and thread-static fields with `t_`. For example: `private static int s_cacheSize;`. This prefix is not required by the language, but it follows the pattern that static members are prefixed differently. If you find it confusing, you can omit the `s_` prefix, but be consistent.
-* **Constants:** For `const` values or `readonly` static fields, use PascalCase (e.g. `MaxRetries`, `DefaultTimeout`). Do **not** use ALL_CAPS with underscores for constants (e.g. use `MaxRetries` not `MAX_RETRIES`); all-caps is not the C# convention for constants. PascalCase makes constants look like regular variables, which in C# is acceptable.
+* **Constants:** For `const` values or `readonly` static fields, use ALL_CAPS (e.g. `MAX_RETRIES`, `DEFAULT_TIMEOUT`). This makes constants stand out and is the required convention for this course.
 * **Meaningful Names:** Choose clear, descriptive names that indicate the purpose of the variable or method. For example, `GetCustomerOrders` is more informative than `GetData`. Avoid vague names like `Tmp`, `Data`, or `Value` that don’t convey intent. A good name reduces the need for comments.
 * **Avoid Abbreviations:** Don’t abbreviate words arbitrarily. For instance, use `ComputeAverage`, not `CompAvg`. Only use acronyms or abbreviations that are widely known and accepted (e.g. `HTML`, `Id` for identifier, `Http`). When using acronyms in PascalCase, capitalize them normally (e.g. `XmlParser`, not `XMLParser`, except two-letter acronyms can be all caps like `IOStream` – but this is an advanced nuance). When in doubt, just treat the acronym as a word (e.g. `JsonWriter`).
 * **Booleans as Questions:** Name boolean variables and properties like a question or affirmative statement. Common prefixes are `is`, `has`, `can`, `should` (e.g. `isFinished`, `hasItems`, `canExecute`). This makes it clear that the value represents a true/false condition.
@@ -22,7 +22,7 @@ Here are some examples of good and bad naming:
 ```csharp
 public class OrderProcessor    // Class in PascalCase
 {
-    private readonly int _maxOrderSize = 100;   // Private constant field in PascalCase with underscore
+    private readonly int MAX_ORDER_SIZE = 100;   // Private constant field in ALL_CAPS
 
     private int _currentCount;   // Private field with underscore in camelCase
 
@@ -33,7 +33,7 @@ public class OrderProcessor    // Class in PascalCase
 
     public void ProcessOrder(string customerName, int itemCount)   // Method in PascalCase, parameters in camelCase
     {
-        bool isValid = itemCount <= _maxOrderSize;   // Boolean variable as question (isValid)
+        bool isValid = itemCount <= MAX_ORDER_SIZE;   // Boolean variable as question (isValid)
         if (!isValid)
         {
             Console.WriteLine($"Order too large for {customerName}");

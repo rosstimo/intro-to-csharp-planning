@@ -17,14 +17,19 @@ This directory contains the official style guide for RCET C# coursework. Use thi
 - Indent code blocks by 4 spaces (never tabs).
 - Put a space after keywords (e.g. `if (` not `if(`).
 - Never mix tabs and spaces.
+- Indent continuation lines an extra 4 spaces.
+- Space after commas, no extra spaces inside parentheses/brackets.
+- No trailing whitespace.
 - See: [02-IndentationAndSpacing.md](02-IndentationAndSpacing.md)
 
 **Naming Conventions:**
 - Use PascalCase for types, classes, public members, and methods.
 - Use camelCase for local variables and parameters.
 - Private fields: camelCase with a leading underscore (e.g. `_count`).
-- Constants: ALL_CAPS (e.g. `MAX_SIZE`).
+- Constants: ALL_CAPS (e.g. `MAX_RETRIES`, `DEFAULT_TIMEOUT`).
 - Boolean names should read like questions (e.g. `isReady`, `hasItems`).
+- No Hungarian notation or type/scope prefixes except `I` for interfaces and `_` for private fields.
+- Avoid abbreviations unless widely accepted.
 - See: [03-NamingConventions.md](03-NamingConventions.md)
 
 **Commenting:**
@@ -32,6 +37,7 @@ This directory contains the official style guide for RCET C# coursework. Use thi
 - Comment the "why" not the "what"—explain intent, not obvious code.
 - Keep comments up to date; remove stale or misleading comments.
 - Use XML comments (`/// <summary>...</summary>`) for public APIs.
+- No commented-out code in releases.
 - See: [05-Commenting.md](05-Commenting.md)
 
 **File & Project Structure:**
@@ -57,9 +63,18 @@ This directory contains the official style guide for RCET C# coursework. Use thi
 5. [05-Commenting.md](05-Commenting.md) — Commenting
 6. [06-ProjectStructure.md](06-ProjectStructure.md) — Project Structure
 7. [07-GitBestPractices.md](07-GitBestPractices.md) — Git & GitHub Best Practices
-8. [RCET_CSharp_Style_Guide_Section1.md](RCET_CSharp_Style_Guide_Section1.md) — Legacy/Reference Section
-9. [style.md](style.md) — Additional Style Notes
 
 ---
+
+### Beginner-Focused Style Guide Summary
+
+This guide is designed for absolute beginners. Every rule is chosen for clarity and ease of understanding:
+- Prefer explicit, readable code over clever or compact solutions.
+- Every example should compile and run as shown.
+- Console apps and simple output are preferred for learning.
+- Code comments should explain the "why" behind decisions.
+- Follow the folder and file structure used in this repo for all assignments.
+- No external packages or dependencies unless specified.
+- All code should run out-of-the-box using just .NET and the code in this repo.
 
 For comprehensive explanations and more examples, follow the links above. All RCET C# assignments must follow these style rules.
