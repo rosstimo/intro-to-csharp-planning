@@ -1,6 +1,10 @@
 ## Static Variables in C#: Best Practice (Beginner Level)
 
-- **Only use **``** at the class level.**
+## Introduction
+
+Static variables belong to the class itself rather than to any individual object. They hold values that should be shared across all instances, like counters or common settings. This short guide explains when to use static fields, how to name them, and why they matter for beginners.
+
+- **Only use static fields at the class level.**
 
   - Declare static variables (fields) at the top of your class, outside of any method.
   - Example:
@@ -39,4 +43,19 @@
   - C# does NOT support static local variables inside methods (unlike VB.NET).
   - For persistent, method-shared state, use a private static field at the class level.
   - Keep it simple. If you’re not sure if it should be static, it probably shouldn’t be!
+
+---
+
+**Practical:**
+- Add a static counter field to a class and increment it each time you create a new object.
+- Experiment with public and private static fields to see how access works.
+- Try removing the `static` keyword and observe how each object keeps its own value.
+
+---
+
+## References
+- [C# Programming Guide: Static Classes and Static Class Members](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
+- [C# Coding Conventions](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions)
+- [StyleGuide/03-NamingConventions.md](../StyleGuide/03-NamingConventions.md)
+- [Topics/dotnet_documentation_links.md](dotnet_documentation_links.md)
 
