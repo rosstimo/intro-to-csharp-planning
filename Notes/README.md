@@ -20,8 +20,11 @@ The `Notes/` directory is intended for:
 ### Root Files
 - **`Schedule.md`:** A 16-week course schedule outlining topics and activities for each week.
 - **`Planning.md`:** General planning notes and ideas for course development.
+- **`KnownIssues.md`:** Tracks known issues and areas for improvement in the repository.
+- **`TODOs.md`:** A checklist of pending tasks for course development.
 - **`RCET2265.pdf`:** A reference document for course design.
 - **`OldCourseContent.md`:** Legacy content from earlier iterations of the course.
+- **`RepositoryReviewAndInsights.md`:** A high-level review of the repository structure, strengths, and areas for improvement.
 
 ### Subdirectories
 - **`OldInstructions/`:** Contains older versions of assignment instructions, including:
@@ -36,6 +39,23 @@ The `Notes/` directory is intended for:
 - **Organize When Finalized:** Move finalized materials to the appropriate directory (e.g., `Topics/`, `Assignments/`, `StyleGuide/`).
 - **Collaborate:** Share ideas and collaborate with other contributors.
 - **Keep It Relevant:** Remove outdated or irrelevant files when they are no longer useful.
+
+---
+
+## Updates Based on Repository Review
+
+The following updates have been made to align with the repository review:
+1. **Added `KnownIssues.md` and `TODOs.md`:** These files now track known issues and pending tasks, ensuring all problems and work items are documented and resolved systematically.
+2. **Clarified Legacy Content Usage:** Legacy files in `OldInstructions/` and `OldCourseContent.md` are for reference only. Do not copy directly into new materials; instead, use them as inspiration for updated content.
+3. **Repository Review Insights:** The `RepositoryReviewAndInsights.md` file provides a high-level summary of the repository's structure, strengths, and areas for improvement. Use this as a guide for future updates.
+4. **Missing Items Identified:** The repository review highlighted several gaps, including:
+   - Missing quiz and assessment content.
+   - Lack of a standardized grading rubric.
+   - Incomplete or missing `ProjectSetup.md`.
+   - Duplication of assignment instructions in multiple locations.
+   - Legacy content integration and alignment with the new course structure.
+   - Learning objectives missing from topic files.
+   - Midterm and final assessment plans not yet developed.
 
 ---
 
